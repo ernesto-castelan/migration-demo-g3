@@ -5,8 +5,8 @@ class Person {
     Integer age
 
     static constraints = {
-        name blank:false, maxSize:50
-        age  min:0
+        name blank:false, maxSize:100
+        age  nullable:true, min:0
     }
 
     static mapping = {
